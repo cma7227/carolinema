@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caroline Ma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!---superslides.css-->
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+     <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--fancybox-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!--own css comes after-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--include only jQuery js in head-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://use.fontawesome.com/b8687a29bf.js"></script>
+
+</head>
+
+<body>
+    <div class = "loader">
+      <div class="inner"></div>
+    </div>
+
+    <!--navbar c&p from getbootstrap-->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#slides">CM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" id="highlight" href="#portfolio">Portfolio</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Experience</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!--superslides pt3-->
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <img src="img/book.jpg" alt="">
+        <img src="img/coding.jpg" alt="">
+        <img src="img/nyc.jpg" alt="">
+      </div>
+
+      <div class="title-message">
+        <div class="heading">
+          <p class="main"> CAROLINE MA </p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+  
+    <div id="stats" class="stats-section">
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="exp">EXPERIENCE</h2>
+          </div>
+          
+          <div class="col-md-3 col-sm-6">
+
+            <div class="square-item">
+              
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-medkit"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">3+</h2>
+                  <h3>Years in</h3>
+                  <h3>healthcare</h3>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="square-item">
+              
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">2+</h2>
+                  <h3>Years in</h3>
+                  <h3>customer service</h3>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+
+            <div class="square-item">
+              
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-archive"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">3+</h2>
+                  <h3>Years of</h3>
+                  <h3>EHR</h3>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        
+          
+        </div>
+
+        
+
+      </div>
+
+    </div>
+
+    <div class="technical-skills" id="skills">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+          </div>
+          <div class="col-md-3 circle"> 
+            <div>
+              <div class="numberCircle">HTML</div>
+            </div>
+          </div>
+          <div class="col-md-3 circle"> 
+            <div>
+              <div class="numberCircle">CSS</div>
+            </div>
+          </div>
+          <div class="col-md-3 circle"> 
+            <div>
+              <div class="numberCircle">JavaScript</div>
+            </div>
+          </div>
+          <div class="col-md-3 circle"> 
+            <div>
+              <div class="numberCircle">Illustrator</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <div id="portfolio" class="section">
+
+      <div class="container">
+
+        <div class="row">
+          
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+
+          <div class="filter">
+
+            <ul id="filters">
+
+              <!--communicate with isotope through data-filter-->
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+              <li><a href="#" data-filter=".illustrations">Illustrations</a></li>
+              <li><a href="#" data-filter=".case-study">Case Studies</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="items-container">
+            
+            <ul class="items">
+
+              <!---diff device sizes-->
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/museum_compiled3.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/museum_compiled3.png" title="View image" class="open-button" data-fancybox data-caption="Redesign of Voelker Orth Museum Website">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/bakery_ws.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/bakery_ws.png" title="View image" class="open-button" data-fancybox data-caption="Personal Bakery Website Design">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+
+              <li onclick="" class="illustrations col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/medical.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/medical.png" title="View image" class="open-button" data-fancybox data-caption="Medical Icons">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="illustrations col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/profile.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/profile.png" title="View image" class="open-button" data-fancybox data-caption="Self Portrait">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+                  
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="illustrations col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/bakery_mascot.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/bakery_mascot.png" title="View image" class="open-button" data-fancybox data-caption="Bakery Mascot">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+              
+              
+              <li onclick="" class="illustrations col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/ingredients.png">
+
+                  <!--icons as buttons-->
+                  <div class="icons">
+                    <a href="img/ingredients.png" title="View image" class="open-button" data-fancybox data-caption="Cake Ingredients">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+              <li onclick="" class="case-study col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/VOM-pic.jpg">
+
+                  <div class="icons">
+                    <a href="project VOM final.pdf" title="View image" class="open-button" data-fancybox data-caption="Voelker Orth Museum Redesign Process">
+                      <i class="fa fa-search"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+
+                  </div>
+
+                  <div class="image-overlay"></div>
+
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div id="contact" class="contact-section section">
+
+      <div class="col-md-12 text-center">
+
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailto: cma7227@gmail.com" class="contact-button">GET IN TOUCH</a>
+      </div>
+    </div>
+
+    <div id="about" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="about-image" src="img/profile.png">
+          </div>
+          <div class="col-md-7">
+            <h4>Hello,</h4>
+            <h3>My name is Caroline Ma.</h3>
+            <br>
+            <p>I'm passionate about improving the healthcare experience and solving challenges with digital innovations.</p>
+            <p>Currently, I work as a clinical administrative assistant in NYC, and learn various coding languages and illustration programs in my free time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="copyright-section">
+      <div class="col-md-12 text-center">
+        <p>&copy;Copyright Caroline Ma 2020</p>
+      </div>
+    </div>
+
+
+<!---javascript files-->
+
+<!--superslides p2-->
+<script src="js/jquery.superslides.min.js"></script>
+
+<!--typed js-->
+<script src="js/typed.min.js"></script>
+
+<!---Bootstrap pt 3-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<!---Bootstrap pt 2-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!--isotope--->
+<script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+
+<!--fancybox--->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!--superslides js--->
+<script src="js/script.js"></script>
+
+</body>
+</html> 
