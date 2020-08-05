@@ -24,7 +24,7 @@ $(document).ready(function() {
     });
 
     var type = new Typed(".typed", {
-        strings: ["Administrative Assistant", "Web Designer", "Digital Illustrator"],
+        strings: ["Administrative Assistant", "Customer Service Support", "Web Designer", "Digital Illustrator"],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
